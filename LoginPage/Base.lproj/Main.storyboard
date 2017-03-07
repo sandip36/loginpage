@@ -153,11 +153,21 @@
                                     <outlet property="delegate" destination="jFf-U7-hjh" id="dTT-pi-f6W"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MJ-Pj-9ig">
+                                <rect key="frame" x="369" y="621" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="HHR-f2-A3s"/>
+                                    <constraint firstAttribute="width" constant="45" id="SnF-Vh-szV"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="vJE-39-Vks" secondAttribute="trailing" constant="-20" id="2mx-bq-8sY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fna-en-USX" secondAttribute="trailing" constant="-20" id="8Jd-pr-QNL"/>
+                            <constraint firstItem="SYe-Mu-a8I" firstAttribute="top" secondItem="9MJ-Pj-9ig" secondAttribute="bottom" constant="70" id="QW1-kQ-RiB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9MJ-Pj-9ig" secondAttribute="trailing" constant="-20" id="UjV-jv-aJN"/>
                             <constraint firstItem="vJE-39-Vks" firstAttribute="top" secondItem="9WF-NV-23M" secondAttribute="bottom" id="WrN-TH-Eio"/>
                             <constraint firstItem="fna-en-USX" firstAttribute="leading" secondItem="FkT-CA-eNI" secondAttribute="leadingMargin" constant="-20" id="kjk-2A-710"/>
                             <constraint firstItem="SYe-Mu-a8I" firstAttribute="top" secondItem="fna-en-USX" secondAttribute="bottom" id="mbO-yP-V7N"/>
